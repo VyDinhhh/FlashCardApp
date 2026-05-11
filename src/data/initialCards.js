@@ -1,0 +1,48 @@
+export const initialCards = [
+  {
+    id: crypto.randomUUID(),
+    term: "analyze",
+    category: "vocabulary",
+    wordType: "verb",
+    meaning: "To study something carefully in order to understand it.",
+    vietnameseMeaning: "phân tích, xem xét kỹ",
+    synonyms: ["examine", "inspect", "study"],
+    example: "The technician analyzed the error logs before replacing the part.",
+    note: "Useful word for resume and technical reports.",
+  },
+  {
+    id: crypto.randomUUID(),
+    term: "efficient",
+    category: "vocabulary",
+    wordType: "adjective",
+    meaning: "Working well without wasting time, energy, or resources.",
+    vietnameseMeaning: "hiệu quả, không lãng phí thời gian hoặc tài nguyên",
+    synonyms: ["productive", "effective", "organized"],
+    example: "The new dashboard made the reporting process more efficient.",
+    note: "Good word for process improvement examples.",
+  },
+  {
+    id: crypto.randomUUID(),
+    term: "BMC",
+    category: "glossary",
+    wordType: "",
+    meaning:
+      "Baseboard Management Controller, used to monitor and manage server hardware.",
+    vietnameseMeaning: "",
+    synonyms: [],
+    example: "I checked the BMC sensor logs to verify system health.",
+    note: "Common in server testing and failure analysis.",
+  },
+  {
+    id: crypto.randomUUID(),
+    term: "IPMI",
+    category: "glossary",
+    wordType: "",
+    meaning:
+      "Intelligent Platform Management Interface, a standard for managing and monitoring servers.",
+    vietnameseMeaning: "",
+    synonyms: [],
+    example: "The IPMI command showed a power supply warning.",
+    note: "Useful technical glossary term.",
+  },
+];
